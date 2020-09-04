@@ -55,4 +55,4 @@ def main(sample_space = [1,2,3,4,5,6]):
 
 if __name__ == '__main__':
 	a=main()
-	print(a)
+	print("Your new and secure password is :",a)
