@@ -15,7 +15,14 @@ python Diceware-Password-Generator.py
 ```
 python3 Diceware-Password-Generator.py  
 ```
-this will provide you a password in return
+this will provide you a password in return of 5 word 
+to create a new and more secure password run
+```
+python DPG-more_secure.py
+```
+this will generate a password of length 6 in which the 6th word is combination of all of the first letter or number of first five words
+
+this proide more secure password if any one knew that you use this method of generating password then it take only 2\**64 attemts to crack it but he can't found the 6 word because it is not from the file       
 
 # Why to use this program 
 ## lets generate a password here by this program
