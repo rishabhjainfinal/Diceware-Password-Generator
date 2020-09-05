@@ -12,4 +12,4 @@ def main():
 
 
 if __name__ == '__main__':
-	print(main())
+	print("Your new and more secure password is :",main())
