@@ -7,6 +7,9 @@ To run file just clone
 ```
 cd Diceware-Password-Generator
 ```
+complete the requirements for the program
+`pip install -r requirements.txt`
+
 this repo and run **Diceware-Password-Generator.py** file by 
 ```
 python Diceware-Password-Generator.py  
