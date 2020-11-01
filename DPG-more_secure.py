@@ -1,5 +1,5 @@
 from DicewarePasswordGenerator import main as password 
-
+import pyperclip	# pip install pyperclip
 
 def main():
 	paslist=password().split(' ')
@@ -12,4 +12,7 @@ def main():
 
 
 if __name__ == '__main__':
-	print("Your new and more secure password is :",main())
+	a=main()
+	print("Your new and secure password is :",a)
+	print('\n\tYour password is copied to clipboard without spaces\n')
+	pyperclip.copy(a.replace(' ',''))
